@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #252839;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+  }
+  
+.back {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: #fff;
+    flex: 1;
+    position: relative;
+}
+
+.back h3 {
+    position: absolute;
+    top: 29vh;
+    left: 26.5vw;
+    margin: 0;
+    display: flex;
+    width: 30vw;
+    gap: 1vw;
+}
+
+.back h3 img{
+    width: 4vw;
+}
